@@ -18,7 +18,7 @@ const TelegramBot = require('node-telegram-bot-api');
 // ══════════════════════════════════════════════════════
 // ⚙️  НАСТРОЙКИ — МЕНЯЙ ТОЛЬКО ЭТИ СТРОКИ
 // ══════════════════════════════════════════════════════
-const TOKEN = process.env.BOT_TOKEN;
+const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const ADMIN_ID = 1132103047;             // ← вставь свой Telegram ID
 const CURRENCY = 'TJS';                 // валюта
 const BASE_PRICE = 5;                   // стартовая цена поездки
